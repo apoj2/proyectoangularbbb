@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row row-cols-12 row-cols-md-12">
+    <div class="col" *ngFor="let dato of respuestaServicio">
+      <img src="{{dato.imagenes}}" class="img-fluid w-100 h-100" alt="">
+      <h1>{{dato.nombre}}</h1>
+      <h4 class="text-center">{{dato.valorNoche}}</h4>
+    </div>
+  </div>
+</div>
